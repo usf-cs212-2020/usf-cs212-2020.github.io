@@ -57,61 +57,67 @@ assignments:
       type: has-text-usf-terra
 
   - homework1: &homework1
-      text: 'Homework 1'
+      text: 'ArgumentParser'
       icon: *icon_homework
       date: 2020-01-31
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911905'
 
   - homework2: &homework2
-      text: 'Homework 2'
+      text: 'SimpleJsonWriter'
       icon: *icon_homework
       date: 2020-02-07
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911957'
 
   - homework3: &homework3
-      text: 'Homework 3'
+      text: 'TextFileStemmer'
       icon: *icon_homework
       date: 2020-02-14
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911958'
 
   - homework4: &homework4
-      text: 'Homework 4'
+      text: 'WordIndex'
       icon: *icon_homework
       date: 2020-02-21
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911959'
 
   - homework5: &homework5
-      text: 'Homework 5'
+      text: 'TextFileFinder'
       icon: *icon_homework
       date: 2020-02-28
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911960'
 
   - homework6: &homework6
-      text: 'Homework 6'
+      text: 'LoggerSetup'
       icon: *icon_homework
       date: 2020-03-06
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911961'
 
   - homework7: &homework7
-      text: 'Homework 7'
+      text: 'SimpleLock'
       icon: *icon_homework
       date: 2020-03-27
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911963'
 
   - homework8: &homework8
-      text: 'Homework 8'
+      text: 'PrimeFinder'
       icon: *icon_homework
       date: 2020-04-03
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911964'
 
   - homework9: &homework9
-      text: 'Homework 9'
+      text: 'LinkParser'
       icon: *icon_homework
       date: 2020-04-17
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911965'
 
   - homework10: &homework10
-      text: 'Homework 10'
+      text: 'HtmlCleaner'
+      icon: *icon_homework
+      date: 2020-04-17
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911965'
+
+  - homework11: &homework11
+      text: 'HeaderFetcher'
       icon: *icon_homework
       date: 2020-04-24
       link: 'https://usfca.instructure.com/courses/1590210/assignments/6911966'
@@ -154,13 +160,32 @@ weeks:
           - icon: *icon_website
             text: 'Syllabus'
             link: '/syllabus.html'
+
+          - text: 'Project Euler'
             bump: true
 
       - label: 'Assigments'
         align: true
         items:
-          - text: 'Piazza Setup'
           - text: 'Course Syllabus'
+            date: 2020-01-24
+            icon: *icon_quiz
+
+          - text: 'Piazza Setup'
+            date: 2020-01-24
+            icon: *icon_participation
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911950'
+
+          - text: 'Piazza Participation 1'
+            bump: true
+            date: 2020-03-06
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911948'
+            icon: *icon_participation
+
+          - text: 'CS Event 1'
+            date: 2020-03-06
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346352'
+            icon: *icon_participation
 
     # column 2 (thursday)
     - sections:
@@ -176,14 +201,35 @@ weeks:
       - label: 'Lab'
         start: 2020-01-24
         items:
-          - <<: *homework1
+          - <<: *mandatory
 
-      - label: 'Upcoming Dates'
+          - text: 'System Setup'
+
+          - <<: *homework1
+            bump: true
+
+      - label: 'Deadlines'
         align: true
+        start: ''
         items:
+          - text: 'Lab Requirements'
+            icon: *icon_participation
+            date: ''
+
+          - text: 'Piazza Setup'
+            date: ''
+            icon: *icon_participation
+            bump: true
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911950'
+
+          - text: 'Course Syllabus'
+            date: ''
+            icon: *icon_quiz
+
           - text: 'Add Deadline'
             date: 2020-01-27
             icon: *icon_date
+            bump: true
 
 - week: 2
   columns:
@@ -192,27 +238,29 @@ weeks:
       - label: 'Lecture'
         start: 2020-01-28
         items:
-          - text: 'Pending'
+          - text: 'Data Structures'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-01-30
         items:
-          - text: 'Pending'
+          - text: 'Iteration and Search'
 
     # column 3 (friday)
     - sections:
       - label: 'Lab'
         start: 2020-01-31
         items:
+          - <<: *mandatory
           - <<: *homework2
 
       - label: 'Deadlines'
-        start: 2020-01-31
+        start: ''
         align: true
         items:
           - <<: *homework1
+            date: ''
 
 - week: 3
   columns:
@@ -221,27 +269,43 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-04
         items:
-          - text: 'Pending'
+          - text: 'Object Oriented Programming'
+
+      - label: 'Assignments'
+        align: true
+        items:
+          - <<: *project1
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-02-06
         items:
-          - text: 'Pending'
+          - text: 'Mutability'
 
     # column 3 (friday)
     - sections:
       - label: 'Lab'
         start: 2020-02-07
         items:
+          - <<: *mandatory
           - <<: *homework3
 
       - label: 'Deadlines'
-        start: 2020-02-07
+        start: ''
         align: true
         items:
           - <<: *homework2
+            date: ''
+
+          - text: 'Drop Deadline'
+            bump: true
+            icon: *icon_date
+            date: 2020-02-07
+
+          - text: 'Census Date'
+            icon: *icon_date
+            date: 2020-02-07
 
 - week: 4
   columns:
@@ -250,14 +314,14 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-11
         items:
-          - text: 'Pending'
+          - text: 'Inheritance'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-02-13
         items:
-          - text: 'Pending'
+          - text: 'Inheritance'
 
     # column 3 (friday)
     - sections:
@@ -267,10 +331,11 @@ weeks:
           - <<: *homework4
 
       - label: 'Deadlines'
-        start: 2020-02-14
+        start: ''
         align: true
         items:
           - <<: *homework3
+            date: ''
 
 - week: 5
   columns:
@@ -279,14 +344,14 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-18
         items:
-          - text: 'Pending'
+          - text: 'Lambda Functions'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-02-20
         items:
-          - text: 'Pending'
+          - text: 'Streams'
 
     # column 3 (friday)
     - sections:
@@ -296,10 +361,11 @@ weeks:
           - <<: *homework5
 
       - label: 'Deadlines'
-        start: 2020-02-21
+        start: ''
         align: true
         items:
           - <<: *homework4
+            date: ''
 
 - week: 6
   columns:
@@ -308,27 +374,44 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-25
         items:
-          - text: 'Pending'
+          - text: 'Software Testing'
+
+      - label: 'Deadlines'
+        start: ''
+        align: true
+        items:
+          - <<: *project1
+            text: 'Project 1 Checkpoint'
+            date: ''
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-02-27
         items:
-          - text: 'Pending'
+          - text: 'Logging'
+
+      - label: 'Assignments'
+        align: true
+        items:
+          - <<: *project2
 
     # column 3 (friday)
     - sections:
       - label: 'Lab'
         start: 2020-02-28
         items:
+          - text: 'Exam 1 Review'
+
           - <<: *homework6
+            bump: true
 
       - label: 'Deadlines'
-        start: 2020-02-28
+        start: ''
         align: true
         items:
           - <<: *homework5
+            date: ''
 
 - week: 7
   columns:
@@ -337,27 +420,44 @@ weeks:
       - label: 'Lecture'
         start: 2020-03-03
         items:
-          - text: 'Pending'
+          - text: 'Exam 1'
+            type: 'has-text-weight-bold has-text-danger'
+            icon: *icon_exam
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-03-05
         items:
-          - text: 'Pending'
+          - text: 'Exam 1 Retake'
+            type: 'has-text-weight-bold has-text-danger'
+            icon: *icon_exam
 
     # column 3 (friday)
     - sections:
       - label: 'Lab'
         start: 2020-03-06
         items:
-          - text: 'Pending'
+          - text: 'Project Catchup'
+            icon: *icon_project
 
       - label: 'Deadlines'
-        start: 2020-03-06
+        start: ''
         align: true
         items:
           - <<: *homework6
+            date: ''
+
+          - text: 'Piazza Participation 1'
+            bump: true
+            date: ''
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911948'
+            icon: *icon_participation
+
+          - text: 'CS Event 1'
+            date: ''
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346352'
+            icon: *icon_participation
 
 - week: 8
   columns:
@@ -398,14 +498,40 @@ weeks:
       - label: 'Lecture'
         start: 2020-03-17
         items:
-          - text: 'Pending'
+          - text: 'Multithreading'
+
+      - label: 'Assigments'
+        align: true
+        items:
+          - text: 'Piazza Participation 2'
+            date: 2020-05-07
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911990'
+            icon: *icon_participation
+
+          - text: 'CS Event 2'
+            date: 2020-05-07
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346358'
+            icon: *icon_participation
+
+      - label: 'Deadlines'
+        start: ''
+        align: true
+        items:
+          - <<: *project2
+            text: 'Project 2 Checkpoint'
+            date: ''
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-03-19
         items:
-          - text: 'Pending'
+          - text: 'Multithreading'
+
+      - label: 'Assignments'
+        align: true
+        items:
+          - <<: *project3
 
     # column 3 (friday)
     - sections:
@@ -421,14 +547,14 @@ weeks:
       - label: 'Lecture'
         start: 2020-03-24
         items:
-          - text: 'Pending'
+          - text: 'Multithreading'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-03-26
         items:
-          - text: 'Pending'
+          - text: 'Multithreading'
 
     # column 3 (friday)
     - sections:
@@ -438,10 +564,11 @@ weeks:
           - <<: *homework8
 
       - label: 'Deadlines'
-        start: 2020-03-27
+        start: ''
         align: true
         items:
           - <<: *homework7
+            date: ''
 
 - week: 11
   columns:
@@ -450,14 +577,20 @@ weeks:
       - label: 'Lecture'
         start: 2020-03-31
         items:
-          - text: 'Pending'
+          - text: 'Regular Expressions'
+
+      - label: 'Assigments'
+        align: true
+        items:
+          - <<: *project4
+            text: 'Project 4 Part A'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-04-02
         items:
-          - text: 'Pending'
+          - text: 'Sockets'
 
     # column 3 (friday)
     - sections:
@@ -465,12 +598,24 @@ weeks:
         start: 2020-04-03
         items:
           - <<: *homework9
+          - <<: *homework10
 
       - label: 'Deadlines'
-        start: 2020-04-03
+        start: ''
         align: true
         items:
           - <<: *homework8
+            date: ''
+
+          - text: 'Project Cutoff 1'
+            icon: *icon_project
+            type: 'has-text-weight-bold has-text-danger is-uppercase'
+            date: 2020-04-03
+            bump: true
+
+          - text: 'Withdraw Deadline'
+            date: 2020-04-06
+            icon: *icon_date
 
 - week: 12
   columns:
@@ -479,14 +624,22 @@ weeks:
       - label: 'Lecture'
         start: 2020-04-07
         items:
-          - text: 'Pending'
+          - text: 'Servlets'
+
+      - label: 'Deadlines'
+        start: ''
+        align: Structures
+        items:
+          - <<: *project3
+            date: ''
+            text: 'Project 3 Checkpoint'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-04-09
         items:
-          - text: 'Pending'
+          - text: 'Servlets'
 
     # column 3 (friday)
     - sections:
@@ -505,27 +658,34 @@ weeks:
       - label: 'Lecture'
         start: 2020-04-14
         items:
-          - text: 'Pending'
+          - text: 'Sessions'
+
+      - label: 'Assigments'
+        align: true
+        items:
+          - <<: *project4
+            text: 'Project 4 Part B'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-04-16
         items:
-          - text: 'Pending'
+          - text: 'Relational Databases'
 
     # column 3 (friday)
     - sections:
       - label: 'Lab'
         start: 2020-04-17
         items:
-          - <<: *homework10
+          - <<: *homework11
 
       - label: 'Deadlines'
         start: 2020-04-17
         align: true
         items:
           - <<: *homework9
+          - <<: *homework10
 
 - week: 14
   columns:
@@ -534,27 +694,28 @@ weeks:
       - label: 'Lecture'
         start: 2020-04-21
         items:
-          - text: 'Pending'
+          - text: 'SQL'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-04-23
         items:
-          - text: 'Pending'
+          - text: 'SQL'
 
     # column 3 (friday)
     - sections:
       - label: 'Lab'
         start: 2020-04-24
         items:
-          - text: 'Pending'
+          - text: 'Exam 2 Review'
+            icon: *icon_exam
 
       - label: 'Deadlines'
         start: 2020-04-24
         align: true
         items:
-          - <<: *homework10
+          - <<: *homework11
 
 - week: 15
   columns:
@@ -563,21 +724,34 @@ weeks:
       - label: 'Lecture'
         start: 2020-04-28
         items:
-          - text: 'Pending'
+          - text: 'Exam 2'
+            type: 'has-text-weight-bold has-text-danger'
+            icon: *icon_exam
+
+      - label: 'Deadlines'
+        start: ''
+        align: Structures
+        items:
+          - <<: *project4
+            date: ''
+            text: 'Project 4 Checkpoint'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-04-30
         items:
-          - text: 'Pending'
+          - text: 'Exam 2'
+            type: 'has-text-weight-bold has-text-danger'
+            icon: *icon_exam
 
     # column 3 (friday)
     - sections:
       - label: 'Lab'
         start: 2020-05-01
         items:
-          - text: 'Pending'
+          - text: 'Project Catchup'
+            icon: *icon_project
 
 - week: 16
   columns:
@@ -586,14 +760,35 @@ weeks:
       - label: 'Lecture'
         start: 2020-05-05
         items:
-          - text: 'Pending'
+          - text: 'JDBC'
 
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-05-07
         items:
-          - text: 'Pending'
+          - text: 'JDBC'
+
+    # column 3
+    - sections:
+      - label: 'End of Semester Deadlines'
+        align: true
+        items:
+          - text: 'Piazza Participation 2'
+            date: 2020-05-07
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911990'
+            icon: *icon_participation
+
+          - text: 'CS Event 2'
+            date: 2020-05-07
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346358'
+            icon: *icon_participation
+
+          - text: 'Project Cutoff 2'
+            icon: *icon_project
+            type: 'has-text-weight-bold has-text-danger is-uppercase'
+            date: 2020-05-07
+            bump: true
 
 - text: 'Finals'
   columns:
@@ -601,4 +796,5 @@ weeks:
     - sections:
       - label: 'Finals Week'
         items:
-          - text: 'Pending'
+          - text: 'Final Code Reviews'
+            icon: *icon_project
