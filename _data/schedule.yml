@@ -1,0 +1,604 @@
+# icons with legend
+icons:
+  website: &icon_website
+    label: Website
+    class: far fa-atlas
+  code: &icon_code
+    label: Code
+    class: far fa-code
+  slides: &icon_slides
+    label: Slides
+    class: far fa-chalkboard-teacher
+  video: &icon_video
+    label: Video
+    class: far fa-video
+  project: &icon_project
+    label: Project
+    class: far fa-code-branch
+  homework: &icon_homework
+    label: Homework
+    class: far fa-laptop-code
+  participation: &icon_participation
+    label: Participation
+    class: far fa-user-friends
+  quiz: &icon_quiz
+    label: Quiz
+    class: far fa-edit
+  exam: &icon_exam
+    label: Exam
+    class: far fa-tasks
+  date: &icon_date
+    label: Date
+    class: far fa-calendar-alt
+
+# icons without legend
+icons_special:
+  warning: &icon_warning
+    label: Warning
+    class: fas fa-exclamation-triangle
+  youtube: &icon_youtube
+    label: YouTube
+    class: fab fa-youtube
+  pending: &icon_pending
+    label: Pending
+    class: far fa-question-square
+  evals: &icon_evals
+    label: Special
+    class: far fa-users-class
+  presentation: &icon_presentation
+    label: Presentation
+    class: far fa-user-chart
+
+# reusable assignments
+assignments:
+  - mandatory: &mandatory
+      text: Attendance Mandatory
+      icon: *icon_warning
+      type: has-text-usf-terra
+
+  - homework1: &homework1
+      text: 'Homework 1'
+      icon: *icon_homework
+      date: 2020-01-31
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911905'
+
+  - homework2: &homework2
+      text: 'Homework 2'
+      icon: *icon_homework
+      date: 2020-02-07
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911957'
+
+  - homework3: &homework3
+      text: 'Homework 3'
+      icon: *icon_homework
+      date: 2020-02-14
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911958'
+
+  - homework4: &homework4
+      text: 'Homework 4'
+      icon: *icon_homework
+      date: 2020-02-21
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911959'
+
+  - homework5: &homework5
+      text: 'Homework 5'
+      icon: *icon_homework
+      date: 2020-02-28
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911960'
+
+  - homework6: &homework6
+      text: 'Homework 6'
+      icon: *icon_homework
+      date: 2020-03-06
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911961'
+
+  - homework7: &homework7
+      text: 'Homework 7'
+      icon: *icon_homework
+      date: 2020-03-27
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911963'
+
+  - homework8: &homework8
+      text: 'Homework 8'
+      icon: *icon_homework
+      date: 2020-04-03
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911964'
+
+  - homework9: &homework9
+      text: 'Homework 9'
+      icon: *icon_homework
+      date: 2020-04-17
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911965'
+
+  - homework10: &homework10
+      text: 'Homework 10'
+      icon: *icon_homework
+      date: 2020-04-24
+      link: 'https://usfca.instructure.com/courses/1590210/assignments/6911966'
+
+  - project1: &project1
+      text: 'Project 1'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-02-25
+
+  - project2: &project2
+      text: 'Project 2'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-03-17
+
+  - project3: &project3
+      text: 'Project 3'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-04-07
+
+  - project4: &project4
+      text: 'Project 4'
+      icon: *icon_project
+      type: 'has-text-usf-plum'
+      date: 2020-04-28
+
+weeks:
+- week: 1
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-01-21
+        class: false
+        items:
+          - text: 'Introduction'
+
+          - icon: *icon_website
+            text: 'Syllabus'
+            link: '/syllabus.html'
+            bump: true
+
+      - label: 'Assigments'
+        align: true
+        items:
+          - text: 'Piazza Setup'
+          - text: 'Course Syllabus'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-01-23
+        class: false
+        items:
+          - text: 'File IO'
+          - text: 'Exceptions'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-01-24
+        items:
+          - <<: *homework1
+
+      - label: 'Upcoming Dates'
+        align: true
+        items:
+          - text: 'Add Deadline'
+            date: 2020-01-27
+            icon: *icon_date
+
+- week: 2
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-01-28
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-01-30
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-01-31
+        items:
+          - <<: *homework2
+
+      - label: 'Deadlines'
+        start: 2020-01-31
+        align: true
+        items:
+          - <<: *homework1
+
+- week: 3
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-02-04
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-02-06
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-02-07
+        items:
+          - <<: *homework3
+
+      - label: 'Deadlines'
+        start: 2020-02-07
+        align: true
+        items:
+          - <<: *homework2
+
+- week: 4
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-02-11
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-02-13
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-02-14
+        items:
+          - <<: *homework4
+
+      - label: 'Deadlines'
+        start: 2020-02-14
+        align: true
+        items:
+          - <<: *homework3
+
+- week: 5
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-02-18
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-02-20
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-02-21
+        items:
+          - <<: *homework5
+
+      - label: 'Deadlines'
+        start: 2020-02-21
+        align: true
+        items:
+          - <<: *homework4
+
+- week: 6
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-02-25
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-02-27
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-02-28
+        items:
+          - <<: *homework6
+
+      - label: 'Deadlines'
+        start: 2020-02-28
+        align: true
+        items:
+          - <<: *homework5
+
+- week: 7
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-03-03
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-03-05
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-03-06
+        items:
+          - text: 'Pending'
+
+      - label: 'Deadlines'
+        start: 2020-03-06
+        align: true
+        items:
+          - <<: *homework6
+
+- week: 8
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'No Class'
+        start: 2020-03-10
+        items:
+        - text: Spring Break
+          icon:
+            class: far fa-seedling
+          type: 'has-text-grey-light'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'No Class'
+        start: 2020-03-12
+        items:
+        - text: Spring Break
+          icon:
+            class: far fa-seedling
+          type: 'has-text-grey-light'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'No Lab'
+        start: 2020-03-13
+        items:
+        - text: Spring Break
+          icon:
+            class: far fa-seedling
+          type: 'has-text-grey-light'
+
+- week: 9
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-03-17
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-03-19
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-03-20
+        items:
+          - <<: *homework7
+
+- week: 10
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-03-24
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-03-26
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-03-27
+        items:
+          - <<: *homework8
+
+      - label: 'Deadlines'
+        start: 2020-03-27
+        align: true
+        items:
+          - <<: *homework7
+
+- week: 11
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-03-31
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-04-02
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-04-03
+        items:
+          - <<: *homework9
+
+      - label: 'Deadlines'
+        start: 2020-04-03
+        align: true
+        items:
+          - <<: *homework8
+
+- week: 12
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-04-07
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-04-09
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'No Lab'
+        start: 2020-04-10
+        items:
+        - text: 'Easter Break'
+          type: 'has-text-grey-light'
+          icon:
+            class: 'far fa-rabbit'
+
+- week: 13
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-04-14
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-04-16
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-04-17
+        items:
+          - <<: *homework10
+
+      - label: 'Deadlines'
+        start: 2020-04-17
+        align: true
+        items:
+          - <<: *homework9
+
+- week: 14
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-04-21
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-04-23
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-04-24
+        items:
+          - text: 'Pending'
+
+      - label: 'Deadlines'
+        start: 2020-04-24
+        align: true
+        items:
+          - <<: *homework10
+
+- week: 15
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-04-28
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-04-30
+        items:
+          - text: 'Pending'
+
+    # column 3 (friday)
+    - sections:
+      - label: 'Lab'
+        start: 2020-05-01
+        items:
+          - text: 'Pending'
+
+- week: 16
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-05-05
+        items:
+          - text: 'Pending'
+
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-05-07
+        items:
+          - text: 'Pending'
+
+- text: 'Finals'
+  columns:
+    # column 1 (tuesday)
+    - sections:
+      - label: 'Finals Week'
+        items:
+          - text: 'Pending'
