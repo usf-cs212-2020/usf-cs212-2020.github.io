@@ -184,6 +184,8 @@ There are no required materials for this class.
 
 If students do not have access to their own laptop or computer, they may utilize one of the CS lab computers for completing assignments.
 
+### Important Dates
+
 The following are important dates and deadlines for the course. These dates are fixed (i.e. they should not change as the semester progresses).
 
 <style>
