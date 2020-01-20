@@ -32,7 +32,7 @@ ul.icons > li > i {
   margin-top: 0.8rem;
 }
 </style>
-{% comment %}
+
 {%- assign today_date = 'now' | date: '%Y-%m-%d' -%}
 {%- assign today = today_date | date: '%s'| abs -%}
 {%- assign beg_date = '2020-01-21' | date: '%s' | abs -%}
@@ -55,7 +55,6 @@ ul.icons > li > i {
 {% for week in site.data.schedule.weeks offset:beg_index limit:2 %}
 {% include week.html week = week %}
 {% endfor %}
-{% endcomment %}
 
 ## Google Calendar
 
