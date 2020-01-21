@@ -163,6 +163,8 @@ weeks:
 
           - text: 'Project Euler'
             bump: true
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Project%20Euler'
 
       - label: 'Assigments'
         align: true
@@ -176,8 +178,24 @@ weeks:
             icon: *icon_participation
             link: 'https://usfca.instructure.com/courses/1590210/assignments/6911950'
 
+    # column 2 (thursday)
+    - sections:
+      - label: 'Lecture'
+        start: 2020-01-23
+        class: false
+        items:
+          - text: 'File and Exceptions'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Files%20and%20Exceptions'
+
+          - text: 'Exceptions'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upUW5iVldFNFp4a0U'
+
+      - label: 'Assigments'
+        align: true
+        items:
           - text: 'Piazza Participation 1'
-            bump: true
             date: 2020-03-06
             link: 'https://usfca.instructure.com/courses/1590210/assignments/6911948'
             icon: *icon_participation
@@ -187,14 +205,6 @@ weeks:
             link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346352'
             icon: *icon_participation
 
-    # column 2 (thursday)
-    - sections:
-      - label: 'Lecture'
-        start: 2020-01-23
-        class: false
-        items:
-          - text: 'File IO'
-          - text: 'Exceptions'
 
     # column 3 (friday)
     - sections:
