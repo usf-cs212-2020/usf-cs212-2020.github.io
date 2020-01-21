@@ -172,6 +172,7 @@ weeks:
           - text: 'Course Syllabus'
             date: 2020-01-24
             icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911932'
 
           - text: 'Piazza Setup'
             date: 2020-01-24
@@ -235,6 +236,7 @@ weeks:
           - text: 'Course Syllabus'
             date: ''
             icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911932'
 
           - text: 'Add Deadline'
             date: 2020-01-27
