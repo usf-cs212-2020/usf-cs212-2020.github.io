@@ -166,6 +166,11 @@ weeks:
             icon: *icon_code
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Project%20Euler'
 
+          - text: 'CS 212-01 Lecture'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/5JwkPZ78rVxOQYnj5U-HfqF8BIrpeaa8g3Uf-KAEyEiVlwL8XMP-5rBGShvLJcbj'
+
       - label: 'Assigments'
         align: true
         items:
