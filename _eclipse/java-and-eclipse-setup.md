@@ -28,7 +28,7 @@ You need to make sure you have the latest version of Java **Standard** Edition (
 
   - Do NOT download just the Java Runtime Environment (JRE). The Java Development Kit (JDK) includes the JRE, which is necessary to run Java code. The JDK also includes the Java compiler, which we will need in class.
 
-To install the Java SE 12 JDK, go to:
+To install the Java SE 13 JDK, go to:
 
 <https://www.oracle.com/technetwork/java/javase/downloads/index.html>
 
