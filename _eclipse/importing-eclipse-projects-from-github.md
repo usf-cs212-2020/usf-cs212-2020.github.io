@@ -11,47 +11,37 @@ Follow these steps to import an Eclipse project from your Github repository. The
 There might be slight differences with the images below at the latest version of Eclipse, and the URLs may have changed to reflect the current term.
 {: .notification }
 
-## Video Walkthrough
-
-<p>This video walkthrough will illustrate this entire process on a Mac OSX system. Alternatively, you can follow the steps in the sections below.</p>
-
-<div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/-ZnV6Z7KUwI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="height: 315px;"></iframe>
-  <br/>
-  <small><a href="https://youtu.be/-ZnV6Z7KUwI"><i class="fab fa-youtube"></i> https://youtu.be/-ZnV6Z7KUwI</a></small>
-</div>
-
 ## Import Repository into Eclipse
 
 You first need to add the Github repository to Eclipse. Log into Github and open Eclipse, and follow these steps:
 
   1. Copy the SSH link to clone your repository in Github. Make sure you are getting the SSH link, not the HTTPS or HTTP links.
 
-      include screenshot.html image="github-clone-or-download.png" zoom="50%" %}
+      ![Screenshot]({{ "/images/github-clone-or-download.png" | relative_url }}){: style="width: calc(540px * 0.75);"}  
 
   2. Switch to Eclipse and open the "Git Perspective"  [(Help)](https://help.eclipse.org/2019-12/topic/org.eclipse.platform.doc.user/tasks/tasks-9f.htm). Select "Window" &raquo; "Perspective" &raquo; "Open Perspective" &raquo; "Other" from the menu, and then "Git" on the dialog box.
 
-       include screenshot.html image="eclipse-other-perspectives.png" zoom="50%" %}
+      ![Screenshot]({{ "/images/eclipse-other-perspectives.png" | relative_url }}){: style="width: calc(353px * 0.75);"}  
 
       Click the "Open" button. The "Git Perspective" should look similar to this:
 
-      include screenshot.html image="eclipse-git-perspective.png" zoom="50%" %}
+      ![Screenshot]({{ "/images/eclipse-git-perspective.png" | relative_url }}){: style="width: calc(1401px * 0.5);"}  
 
   3. Click the "Clone a Git repository" button or link. (You can hover over the buttons to see their descriptions.) This should open the following dialog window:
 
-      include screenshot.html image="eclipse-clone-git-repository.png" zoom="50%" %}
+      ![Screenshot]({{ "/images/eclipse-clone-git-repository.png" | relative_url }}){: style="width: calc(525px * 0.75);"}  
 
       The fields should automatically fill in based on the link you copied in Github. (If not, hit cancel, copy the link, and then re-open the dialog window.)
 
   4. Click the "Next" button, make sure the `master` repository is selected, and click the "Next" button again. If you are storing your CS 212 code in a specific folder, click the "Browse" button and select it in the following dialog window:
 
-      include screenshot.html image="eclipse-clone-git-repository-destination.png" zoom="50%" %}
+      ![Screenshot]({{ "/images/eclipse-clone-git-repository-destination.png" | relative_url }}){: style="width: calc(525px * 0.75);"}  
 
       Follow the prompts to finish the process.
 
   5. You should now see the repository listed in the Git Perspective:
 
-      include screenshot.html image="eclipse-git-repositories-list.png" zoom="50%" %}
+      ![Screenshot]({{ "/images/eclipse-git-repositories-list.png" | relative_url }}){: style="width: calc(702px * 0.75);"}  
 
       You can right-click the repository to access several `git` actions, including the "Pull" action which you will need to keep this local repository (on your system) synchronized with your remote repository (on Github).
 
@@ -69,7 +59,7 @@ Now that the repository is added to Eclipse and up-to-date, you can import the J
 
   2. In Eclipse, select "Import..." from the "File" menu.
 
-      include screenshot.html image="eclipse-import-dialog.png" zoom="50%" %}
+      ![Screenshot]({{ "/images/eclipse-import-dialog.png" | relative_url }}){: style="width: calc(525px * 0.75);"}  
 
       Select "Projects from Git" in the dialog window and click the "Next" button.
 
@@ -77,7 +67,7 @@ Now that the repository is added to Eclipse and up-to-date, you can import the J
 
   4. Make sure to select "Import existing Eclipse projects" in the dialog window:
 
-      include screenshot.html image="eclipse-import-existing-projects-from-git.png" zoom="50%" %}
+      ![Screenshot]({{ "/images/eclipse-import-existing-projects-from-git.png" | relative_url }}){: style="width: calc(525px * 0.75);"}  
 
       Click the "Next" button to continue.
 
@@ -100,3 +90,13 @@ Now, we have to re-add the necessary libraries. Click the "Add Library..." butto
   - Select "User Library" to add a third-party user library (if necessary). This could be log4j2, Apache Commons, etc. depending on the assignment. See the [Adding User Libraries in Eclipse](/guides/eclipse/adding-user-libraries-in-eclipse.html) guide for more details on how to set those up.
 
 Click "Apply" and "OK" when done. You should see all of the scary red icons disappear. If not, ask on Piazza or during office hours for help!
+
+## Video Walkthrough
+
+This video walkthrough will illustrate this entire process on a Mac OSX system. Alternatively, you can follow the steps in the sections below. This is an older video---some steps may not align perfectly.
+
+<div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-ZnV6Z7KUwI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="height: 315px;"></iframe>
+  <br/>
+  <small><a href="https://youtu.be/-ZnV6Z7KUwI"><i class="fab fa-youtube"></i> https://youtu.be/-ZnV6Z7KUwI</a></small>
+</div>
