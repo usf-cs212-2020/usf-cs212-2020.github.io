@@ -239,6 +239,7 @@ weeks:
           - text: 'Lab Requirements'
             icon: *icon_participation
             date: ''
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911943'
 
           - text: 'Piazza Setup'
             date: ''
