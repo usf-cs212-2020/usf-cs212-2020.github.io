@@ -40,8 +40,11 @@ ul.icons > li > i {
 
 {%- if today > beg_date -%}
   {%- assign end_index = site.data.schedule.weeks | size | minus: 2 -%}
+
   {%- for week in site.data.schedule.weeks limit:end_index -%}
-    {%- assign first_day = week.columns | first -%}
+    {%- assign first_section = week.columns | first -%}
+    {%- assign first_day = first_section.sections | first -%}
+
     {%- if first_day.start -%}
       {%- assign as_seconds = first_day.start | date: '%s' | abs -%}
       {%- if as_seconds > today -%}
