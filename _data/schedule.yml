@@ -166,7 +166,7 @@ weeks:
             icon: *icon_code
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Project%20Euler'
 
-          - text: 'CS 212-01 Lecture'
+          - text: 'Lecture Recording'
             bump: true
             icon: *icon_video
             link: 'https://usfca.zoom.us/rec/share/5JwkPZ78rVxOQYnj5U-HfqF8BIrpeaa8g3Uf-KAEyEiVlwL8XMP-5rBGShvLJcbj'
@@ -197,6 +197,12 @@ weeks:
           - text: 'Exceptions'
             icon: *icon_slides
             link: 'https://drive.google.com/open?id=0BxYofk0iB_upUW5iVldFNFp4a0U'
+
+          - text: 'Lecture Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/-ZZ3Cpiq2V5OQdb0y3vTGe0tHLjMeaa8gHAW_PEPn0g55kvKg_0iZdnfhko0-Ang'
+
 
       - label: 'Assigments'
         align: true
