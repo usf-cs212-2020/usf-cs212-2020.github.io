@@ -70,9 +70,9 @@ In a Terminal window on your system (Mac or Linux), change to the directory with
 
 Next, you need to let `stargate.cs.usfca.edu` know your public key is authorized. You do this by copying the contents of your public key to the `authorized_keys` file in the `.ssh` directory. You *should* be able to use these commands to do this in one step:
 
-<textarea class="copy textarea" rows="1">cat keyname.pub | ssh username@stargate.cs.usfca.edu "cat >> ~/.ssh/authorized_keys"</textarea>
+<textarea class="copy textarea" rows="1">cat KEYNAME.pub | ssh USERNAME@stargate.cs.usfca.edu "cat >> ~/.ssh/authorized_keys"</textarea>
 
-Replace `username` with your CS username and `keyname` with the name of your public key before copy/paste. This is usually `id_rsa.pub` but the exact name depends on how you generated your keys.
+Replace `USERNAME` with your CS username and `KEYNAME` with the name of your public key before copy/paste. This is usually `id_rsa.pub` but the exact name depends on how you generated your keys.
 
 To test your setup, try to SSH into `stargate.cs.usfca.edu` without your password.
 
@@ -86,8 +86,8 @@ To start, SSH in to `stargate.cs.usfca.edu` and then SSH into any CS lab compute
 
 On a CS lab computer, copy the contents of your `*.pub` key into the `authorized_keys` file on its own line. Since this is a copy between two local files, you *should* be able to use this command:
 
-<textarea class="copy textarea" rows="1">cd ~/.ssh/; cat keyname.pub >> authorized_keys</textarea>
+<textarea class="copy textarea" rows="1">cd ~/.ssh/; cat KEYNAME.pub >> authorized_keys</textarea>
 
-Replace `keyname` with the name of your public key before copy/paste.
+Replace `KEYNAME` with the name of your public key before copy/paste.
 
 Now, after you login to `stargate.cs.usfca.edu` without a password, you should be able to SSH into a lab computer without a password as well.

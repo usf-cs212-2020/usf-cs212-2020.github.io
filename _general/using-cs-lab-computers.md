@@ -33,9 +33,9 @@ If you are physically in one of the CS Labs, you can log into one of the lab com
 
 ## Remote Access
 
-If you want to access one of the CS Lab computers remotely (for example, from home or off-campus), you must [login using SSH](http://www.cs.usfca.edu/support.html#login). From a Linux or Mac system, open a terminal window and enter the following command (replacing `username` with your own username before copy/paste):
+If you want to access one of the CS Lab computers remotely (for example, from home or off-campus), you must [login using SSH](http://www.cs.usfca.edu/support.html#login). From a Linux or Mac system, open a terminal window and enter the following command (replacing `USERNAME` with your own username before copy/paste):
 
-<textarea class="copy textarea" rows="1" placeholder="ssh username@stargate.cs.usfca.edu">ssh username@stargate.cs.usfca.edu</textarea>
+<textarea class="copy textarea" rows="1" placeholder="ssh USERNAME@stargate.cs.usfca.edu">ssh USERNAME@stargate.cs.usfca.edu</textarea>
 
 This will log you into our gateway. However, Java is **not** installed on our gateway! You must next log into one of our lab computers. Enter `rusers` to find which systems are free. You want a system that has no users listed next to its name. Then, SSH into that lab computer. For example, if `g1201` is free, you can enter:
 
