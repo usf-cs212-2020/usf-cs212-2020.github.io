@@ -3,6 +3,11 @@ layout: guides
 navbar: Guides
 title: Homework Testing
 key: 2
+
+tags:
+  - text: 'Pending'
+    type: ''
+
 ---
 
 Every homework comes with a `test` directory with JUnit 5 test code. You must pass all of these tests using the `homework` script on the lab computers.
