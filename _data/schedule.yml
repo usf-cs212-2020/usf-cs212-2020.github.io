@@ -220,6 +220,8 @@ weeks:
           - <<: *mandatory
 
           - text: 'System Setup'
+            icon: *icon_website
+            link: '/guides'
 
           - <<: *homework1
             bump: true
