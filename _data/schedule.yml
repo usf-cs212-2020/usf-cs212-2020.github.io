@@ -264,7 +264,26 @@ weeks:
       - label: 'Lecture'
         start: 2020-01-28
         items:
+          - text: 'Data Structures - Types'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
+
+          - text: 'Data Structures - Framework'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
+
           - text: 'Data Structures'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Data%20Structures'
+            bump: true
+
+      - label: 'Assignments'
+        align: true
+        items:
+          - text: 'Data Structures'
+            icon: *icon_quiz
+            date: 2020-02-04
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346851'
 
     # column 2 (thursday)
     - sections:
@@ -272,6 +291,15 @@ weeks:
         start: 2020-01-30
         items:
           - text: 'Iteration and Search'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Data%20Structures'
+
+      - label: 'Assignments'
+        align: true
+        items:
+          - text: 'Iteration'
+            icon: *icon_quiz
+            date: 2020-02-06
 
     # column 3 (friday)
     - sections:
@@ -279,7 +307,14 @@ weeks:
         start: 2020-01-31
         items:
           - <<: *mandatory
+
+          - text: 'Eclipse Setup'
+            icon: *icon_website
+            link: '/guides/eclipse/configuring-eclipse.html'
+
           - <<: *homework2
+            bump: true
+
 
       - label: 'Deadlines'
         start: ''
@@ -302,6 +337,15 @@ weeks:
         items:
           - <<: *project1
 
+      - label: 'Deadlines'
+        start: ''
+        items:
+          - text: 'Data Structures'
+            icon: *icon_quiz
+            date: ''
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346851'
+
+
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
@@ -309,13 +353,25 @@ weeks:
         items:
           - text: 'Mutability'
 
+      - label: 'Deadlines'
+        align: true
+        start: ''
+        items:
+          - text: 'Iteration'
+            icon: *icon_quiz
+            date: ''
+
     # column 3 (friday)
     - sections:
       - label: 'Lab'
         start: 2020-02-07
         items:
           - <<: *mandatory
+
+          - text: 'Project Setup'
+
           - <<: *homework3
+            bump: true
 
       - label: 'Deadlines'
         start: ''
