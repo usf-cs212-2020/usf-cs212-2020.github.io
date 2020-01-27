@@ -22,9 +22,15 @@ img {
 
 Eclipse is a free, powerful, open-source, and configurable IDE. I recommend you spend some time configuring Eclipse to meet your needs.
 
-## Compiler and Javadoc
+## Compiler Configuration
 
 Pending
+
+## Javadoc Configuration
+
+Your code should have proper Javadoc comments for *all* members and methods before requesting a code review. To receive warnings when you are missing something (or something is out of date) with your Javadoc comments, use these settings:
+
+![Javadoc]({{ "/images/eclipse-java-compiler-javadoc.png" | relative_url }}){: style="width: calc(1620px * 0.4);"}
 
 ## Code Formatting
 
