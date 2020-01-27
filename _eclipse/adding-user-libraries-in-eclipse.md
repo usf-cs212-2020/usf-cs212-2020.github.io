@@ -2,7 +2,7 @@
 layout: guides
 navbar: Guides
 title: Adding User Libraries in Eclipse
-key: 3
+key: 4
 ---
 
 There is a step-by-step walkthrough on how to add user libraries in Eclipse at:
