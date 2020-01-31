@@ -277,6 +277,11 @@ weeks:
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Data%20Structures'
             bump: true
 
+          - text: 'Lecture Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/-ZZXJLjB8ExLH9Lsy1-BCrcfFI_Aaaa81ChIqKBbzxlL7Vd4xsXqSEgI-XaygX6-'
+
       - label: 'Assignments'
         align: true
         items:
@@ -294,12 +299,10 @@ weeks:
             icon: *icon_code
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Data%20Structures'
 
-      - label: 'Assignments'
-        align: true
-        items:
-          - text: 'Iteration'
-            icon: *icon_quiz
-            date: 2020-02-06
+          - text: 'Lecture Recording (Fall 2019)'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/recording/share/2bGCoayI8lgYhHwSPRI0OfMnESkiqOztInetnO_XkdSwIumekTziMw'
 
     # column 3 (friday)
     - sections:
@@ -312,13 +315,19 @@ weeks:
             icon: *icon_website
             link: '/guides/eclipse/configuring-eclipse.html'
 
+      - label: 'Assignments'
+        start: ''
+        align: true
+        items:
           - <<: *homework2
-            bump: true
 
+          - text: 'Iteration'
+            icon: *icon_quiz
+            date: 2020-02-07
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347054'
 
       - label: 'Deadlines'
         start: ''
-        align: true
         items:
           - <<: *homework1
             date: ''
@@ -353,14 +362,6 @@ weeks:
         items:
           - text: 'Mutability'
 
-      - label: 'Deadlines'
-        align: true
-        start: ''
-        items:
-          - text: 'Iteration'
-            icon: *icon_quiz
-            date: ''
-
     # column 3 (friday)
     - sections:
       - label: 'Lab'
@@ -379,7 +380,11 @@ weeks:
         items:
           - <<: *homework2
             date: ''
-
+          - text: 'Iteration'
+            icon: *icon_quiz
+            date: ''
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347054'
+            
           - text: 'Drop Deadline'
             bump: true
             icon: *icon_date
