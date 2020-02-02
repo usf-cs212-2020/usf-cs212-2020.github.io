@@ -339,12 +339,24 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-04
         items:
+          - text: 'OOP Terminology'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
+
           - text: 'Object Oriented Programming'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/OOP%20Principles'
 
       - label: 'Assignments'
         align: true
         items:
           - <<: *project1
+
+          - text: 'OOP: Static vs Instance'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346353'
+            date: 2020-02-11
+            bump: true
 
       - label: 'Deadlines'
         start: ''
@@ -361,6 +373,27 @@ weeks:
         start: 2020-02-06
         items:
           - text: 'Mutability'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/OOP%20Principles'
+
+      - label: 'Assignments'
+        align: true
+        items:
+          - text: 'OOP: Instance vs Identifier'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346343'
+            date: 2020-02-13
+
+          - text: 'OOP: Mutability, Part 1'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346335'
+            date: 2020-02-13
+
+          - text: 'OOP: Mutability, Part 2'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346362'
+            date: 2020-02-13
+
 
     # column 3 (friday)
     - sections:
@@ -384,7 +417,7 @@ weeks:
             icon: *icon_quiz
             date: ''
             link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347054'
-            
+
           - text: 'Drop Deadline'
             bump: true
             icon: *icon_date
@@ -403,12 +436,40 @@ weeks:
         items:
           - text: 'Inheritance'
 
+      - label: 'Deadlines'
+        align: true
+        start: ''
+        items:
+          - text: 'OOP: Static vs Instance'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346353'
+            date: ''
+
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-02-13
         items:
           - text: 'Inheritance'
+
+      - label: 'Deadlines'
+        align: true
+        start: ''
+        items:
+          - text: 'OOP: Instance vs Identifier'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346343'
+            date: ''
+
+          - text: 'OOP: Mutability, Part 1'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346335'
+            date: ''
+
+          - text: 'OOP: Mutability, Part 2'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346362'
+            date: ''
 
     # column 3 (friday)
     - sections:
