@@ -127,24 +127,28 @@ assignments:
       icon: *icon_project
       type: 'has-text-usf-plum'
       date: 2020-02-25
+      link: '/guides/projects/project-1.html'
 
   - project2: &project2
       text: 'Project 2'
       icon: *icon_project
       type: 'has-text-usf-plum'
       date: 2020-03-17
+      link: '/guides/projects/project-2.html'
 
   - project3: &project3
       text: 'Project 3'
       icon: *icon_project
       type: 'has-text-usf-plum'
       date: 2020-04-07
+      link: '/guides/projects/project-3.html'
 
   - project4: &project4
       text: 'Project 4'
       icon: *icon_project
       type: 'has-text-usf-plum'
       date: 2020-04-28
+      link: '/guides/projects/project-4.html'
 
 weeks:
 - week: 1
