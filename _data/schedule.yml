@@ -351,6 +351,11 @@ weeks:
             icon: *icon_code
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/OOP%20Principles'
 
+          - text: 'Lecture Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/uONwM-_h_H9If6-O2RrURP8BN6njT6a80CNP-vcInhxG9r-qrwo1H6yMsLUPcYHc'
+
       - label: 'Assignments'
         align: true
         items:
