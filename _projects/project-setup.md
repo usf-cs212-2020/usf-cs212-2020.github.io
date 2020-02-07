@@ -16,6 +16,8 @@ Below is a quick summary of the one-time setup needed for the project:
 
 1. Go to the `.github/ISSUE_TEMPLATE` directory in the Github website interface, and open the issue template. Click the "Edit" button and modify `FULL_NAME` to be your full name, `GITHUB_ORG` to be the Github organization for your class (e.g. `usf-cs212-2020`), `GITHUB_USER` to be your Github username, and then delete the "First-Time Setup" text after reading it. Save your changes.
 
+1. If needed, follow the [Configuring Eclipse](/guides/eclipse/configuring-eclipse.html) guide to setup your compiler and Javadoc settings.
+
 1. If needed, setup the [Apache OpenNLP](http://opennlp.apache.org/) user library in Eclipse. See the [Adding User Libraries in Eclipse](/guides/eclipse/adding-user-libraries-in-eclipse.html) guide for steps. Make sure to name the library `opennlp-tools` to avoid build path problems.
 
 1. Import the repository as a Java Project in Eclipse. See the [Importing Eclipse Projects from Github](/guides/eclipse/importing-eclipse-projects-from-github.html) guide for steps. This is where you will add your own code for the project.
