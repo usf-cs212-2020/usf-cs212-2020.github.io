@@ -24,7 +24,11 @@ Eclipse is a free, powerful, open-source, and configurable IDE. I recommend you 
 
 ## Compiler Configuration
 
-Pending
+The project code may not have warnings, including Javadoc warnings, when running the `project` script on the lab computers. If you want your Eclipse to have *similar* compiler settings, import this configuration into your Eclipse workspace:
+
+<script src="https://gist.github.com/sjengle/c7d572a4d0eaf0be618f95d761d49a08.js"></script>
+
+Note that it is not *exactly* the same---the `project` script uses `javac` and Eclipse uses its own built-in Java compiler instead.
 
 ## Javadoc Configuration
 
