@@ -106,3 +106,13 @@ This is a two part process: first you must create a release, and second you must
 
 
 If everything passes and you want credit for passing the functionality, follow the [project grading](project-grading.html) steps to notify the teacher assistant.
+
+## Video Walkthrough
+
+This video walkthrough will illustrate an *older version* of this process on a Mac OSX system. Please note this video was recorded for a previous semester. Some aspects may have changed.
+
+<div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/n3159AmZV2M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="height: 315px;"></iframe>
+  <br/>
+  <small><a href="https://youtu.be/n3159AmZV2M"><i class="fab fa-youtube"></i> https://youtu.be/n3159AmZV2M</a></small>
+</div>
