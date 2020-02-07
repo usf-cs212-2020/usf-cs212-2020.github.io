@@ -385,6 +385,11 @@ weeks:
             icon: *icon_code
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/OOP%20Principles'
 
+          - text: 'Lecture Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/y8JrI5TV_DpJGrfAsFDNZKMGQp3sT6a80HMX-fNfnRvggmpX0LrxNKBAqoB-VHs2'
+
       - label: 'Assignments'
         align: true
         items:
@@ -412,6 +417,12 @@ weeks:
           - <<: *mandatory
 
           - text: 'Project Setup'
+            link: '/guides/projects/project-setup.html'
+            icon: *icon_website
+
+          - text: 'Project Testing'
+            link: '/guides/projects/project-testing.html'
+            icon: *icon_website
 
           - <<: *homework3
             bump: true
