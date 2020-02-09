@@ -491,8 +491,20 @@ weeks:
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Inheritance'
             bump: true
 
-      - label: 'Deadlines'
+      - label: 'Assignments'
         align: true
+        items:
+          - text: 'Collections Revisited'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346350'
+            date: 2020-02-18
+
+          - text: 'Final Keyword'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346347'
+            date: 2020-02-18
+
+      - label: 'Deadlines'
         start: ''
         items:
           - text: 'OOP: Static vs Instance'
@@ -518,8 +530,20 @@ weeks:
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Inheritance'
             bump: true
 
-      - label: 'Deadlines'
+      - label: 'Assignments'
         align: true
+        items:
+          - text: 'Inheritance Terminology'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346348'
+            date: 2020-02-20
+
+          - text: 'Casting'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346351'
+            date: 2020-02-20
+
+      - label: 'Deadlines'
         start: ''
         items:
           - text: 'OOP: Instance vs Identifier'
@@ -566,12 +590,40 @@ weeks:
         items:
           - text: 'Lambda Functions'
 
+      - label: 'Deadlines'
+        start: ''
+        align: true
+        items:
+          - text: 'Collections Revisited'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346350'
+            date: ''
+
+          - text: 'Final Keyword'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346347'
+            date: ''
+
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-02-20
         items:
           - text: 'Streams'
+
+      - label: 'Deadlines'
+        start: ''
+        align: true
+        items:
+          - text: 'Inheritance Terminology'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346348'
+            date: ''
+
+          - text: 'Casting'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346351'
+            date: ''
 
     # column 3 (friday)
     - sections:
