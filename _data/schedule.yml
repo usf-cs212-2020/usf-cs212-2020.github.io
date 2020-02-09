@@ -233,11 +233,13 @@ weeks:
             icon: *icon_website
             link: '/guides'
 
+      - label: 'Assignments'
+        align: true
+        items:
           - <<: *homework1
             bump: true
 
       - label: 'Deadlines'
-        align: true
         start: ''
         items:
           - text: 'Lab Requirements'
@@ -424,17 +426,18 @@ weeks:
             link: '/guides/projects/project-testing.html'
             icon: *icon_website
 
-          - <<: *homework3
-            bump: true
-
           - text: 'Lab Recording'
             bump: true
             icon: *icon_video
             link: 'https://usfca.zoom.us/rec/share/5e9RDY3w2zpIQ6_WyhH5W_54OKvjeaa8gCFLr_oPyxnU99iPoyYIMk6nUoZFKmWb'
 
+      - label: 'Assignments'
+        align: true
+        items:
+          - <<: *homework3
+
       - label: 'Deadlines'
         start: ''
-        align: true
         items:
           - <<: *homework2
             date: ''
@@ -543,12 +546,13 @@ weeks:
             link: '/guides/projects/project-grading.html'
             icon: *icon_website
 
+      - label: 'Assignments'
+        align: true
+        items:
           - <<: *homework4
-            bump: true
 
       - label: 'Deadlines'
         start: ''
-        align: true
         items:
           - <<: *homework3
             date: ''
@@ -573,6 +577,11 @@ weeks:
     - sections:
       - label: 'Lab'
         start: 2020-02-21
+        items:
+          - text: 'Project/Homework Help'
+
+      - label: 'Assignments'
+        align: true
         items:
           - <<: *homework5
 
@@ -619,8 +628,10 @@ weeks:
         items:
           - text: 'Exam 1 Review'
 
+      - label: 'Assignments'
+        align: true
+        items:
           - <<: *homework6
-            bump: true
 
       - label: 'Deadlines'
         start: ''
@@ -654,8 +665,7 @@ weeks:
       - label: 'Lab'
         start: 2020-03-06
         items:
-          - text: 'Project Catchup'
-            icon: *icon_project
+          - text: 'Project/Homework Help'
 
       - label: 'Deadlines'
         start: ''
@@ -754,6 +764,11 @@ weeks:
       - label: 'Lab'
         start: 2020-03-20
         items:
+          - text: 'Project/Homework Help'
+
+      - label: 'Assignments'
+        align: true
+        items:
           - <<: *homework7
 
 - week: 10
@@ -776,6 +791,11 @@ weeks:
     - sections:
       - label: 'Lab'
         start: 2020-03-27
+        items:
+          - text: 'Project/Homework Help'
+
+      - label: 'Assignments'
+        align: true
         items:
           - <<: *homework8
 
@@ -813,12 +833,16 @@ weeks:
       - label: 'Lab'
         start: 2020-04-03
         items:
+          - text: 'Project/Homework Help'
+
+      - label: 'Assignments'
+        align: true
+        items:
           - <<: *homework9
           - <<: *homework10
 
       - label: 'Deadlines'
         start: ''
-        align: true
         items:
           - <<: *homework8
             date: ''
@@ -894,11 +918,15 @@ weeks:
       - label: 'Lab'
         start: 2020-04-17
         items:
+          - text: 'Project/Homework Help'
+
+      - label: 'Assignments'
+        align: true
+        items:
           - <<: *homework11
 
       - label: 'Deadlines'
         start: 2020-04-17
-        align: true
         items:
           - <<: *homework9
           - <<: *homework10
@@ -966,8 +994,7 @@ weeks:
       - label: 'Lab'
         start: 2020-05-01
         items:
-          - text: 'Project Catchup'
-            icon: *icon_project
+          - text: 'Project/Homework Help'
 
 - week: 16
   columns:
