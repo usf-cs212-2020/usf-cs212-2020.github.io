@@ -459,7 +459,34 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-11
         items:
+          - text: 'Inheritance Introduction'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upbFlMM2E0bWhwVnc'
+
+          - text: 'Abstract Classes and Interfaces'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upM0Z4MVZLbXdWb3M'
+
+          - text: 'Object Class'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upZ0ZnYm5iT2hjOXc'
+
+          - text: 'Final Keyword'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upTXU2b1BQcWRFcjQ'
+
+          - text: 'Collections Revisited'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upaFM2bUkwSnVoZ1k'
+
+          - text: 'Casting'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
+
           - text: 'Inheritance'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Inheritance'
+            bump: true
 
       - label: 'Deadlines'
         align: true
@@ -475,8 +502,19 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-13
         items:
-          - text: 'Inheritance'
+          - text: 'Nested Classes'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upWFpPd25oYjNjd00'
 
+          - text: 'Generics'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
+
+          - text: 'Inheritance'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Inheritance'
+            bump: true
+            
       - label: 'Deadlines'
         align: true
         start: ''
