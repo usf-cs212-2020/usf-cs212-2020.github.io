@@ -514,7 +514,7 @@ weeks:
             icon: *icon_code
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Inheritance'
             bump: true
-            
+
       - label: 'Deadlines'
         align: true
         start: ''
@@ -539,7 +539,12 @@ weeks:
       - label: 'Lab'
         start: 2020-02-14
         items:
+          - text: 'Project Grading'
+            link: '/guides/projects/project-grading.html'
+            icon: *icon_website
+
           - <<: *homework4
+            bump: true
 
       - label: 'Deadlines'
         start: ''
