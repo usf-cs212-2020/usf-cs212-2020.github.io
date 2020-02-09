@@ -427,6 +427,11 @@ weeks:
           - <<: *homework3
             bump: true
 
+          - text: 'Lab Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/5e9RDY3w2zpIQ6_WyhH5W_54OKvjeaa8gCFLr_oPyxnU99iPoyYIMk6nUoZFKmWb'
+
       - label: 'Deadlines'
         start: ''
         align: true
