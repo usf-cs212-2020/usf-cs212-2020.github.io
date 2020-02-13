@@ -491,6 +491,11 @@ weeks:
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Inheritance'
             bump: true
 
+          - text: 'Lecture Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/-4t8HrPop0FJUNLh60ryU5Q7Rr77X6a813RM-_RbyUmJgKQHSbk_2bhpSAiSYBQN'
+
       - label: 'Assignments'
         align: true
         items:
