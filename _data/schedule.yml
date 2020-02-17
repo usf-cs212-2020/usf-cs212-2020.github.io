@@ -598,7 +598,13 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-18
         items:
+          - text: 'Java Features'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S'
+
           - text: 'Lambda Functions'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
 
       - label: 'Deadlines'
         start: ''
@@ -619,7 +625,13 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-20
         items:
-          - text: 'Streams'
+          - text: 'Streams - Introduction'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=1HQlACG3kzarpDsQ8Gzq8XVB8cSnp2_kO'
+
+          - text: 'Streams - Pipelines'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP'
 
       - label: 'Deadlines'
         start: ''
