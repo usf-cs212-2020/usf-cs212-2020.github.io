@@ -602,9 +602,15 @@ weeks:
             icon: *icon_slides
             link: 'https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S'
 
-          - text: 'Lambda Functions'
+          - text: 'Lambda Expressions'
             icon: *icon_slides
             link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
+
+          - text: 'Lambda Expressions'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Lambda%20Expressions'
+            bump: true
+
 
       - label: 'Deadlines'
         start: ''
