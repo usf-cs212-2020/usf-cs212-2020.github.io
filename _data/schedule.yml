@@ -622,7 +622,7 @@ weeks:
           - text: 'Java Features'
             icon: *icon_quiz
             link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346342'
-            date: '2019-02-25'
+            date: 2019-02-25
 
       - label: 'Deadlines'
         start: ''
@@ -660,9 +660,21 @@ weeks:
           #   icon: *icon_video
           #   link: ''
 
+      - label: 'Assignments'
+        align: true
+        items:
+          - text: 'Lambda Expressions'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911918'
+            date: 2019-02-27
+
+          - text: 'Streams'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346357'
+            date: 2019-02-27
+
       - label: 'Deadlines'
         start: ''
-        align: true
         items:
           - text: 'Inheritance Terminology'
             icon: *icon_quiz
@@ -710,9 +722,15 @@ weeks:
         start: ''
         align: true
         items:
+          - text: 'Java Features'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346342'
+            date: ''
+
           - <<: *project1
             text: 'Project 1 Checkpoint'
             date: ''
+            bump: true
 
     # column 2 (thursday)
     - sections:
@@ -731,6 +749,19 @@ weeks:
         items:
           - <<: *project2
 
+
+      - label: 'Deadlines'
+        start: ''
+        items:
+          - text: 'Lambda Expressions'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/assignments/6911918'
+            date: ''
+
+          - text: 'Streams'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346357'
+            date: ''
     # column 3 (friday)
     - sections:
       - label: 'Lab'
