@@ -650,6 +650,11 @@ weeks:
             icon: *icon_slides
             link: 'https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP'
 
+          - text: 'Stream Pipelines'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Stream%20Pipelines'
+            bump: true
+
           # - text: 'Lecture Recording'
           #   bump: true
           #   icon: *icon_video
