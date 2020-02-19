@@ -611,6 +611,11 @@ weeks:
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Lambda%20Expressions'
             bump: true
 
+          - text: 'Lecture Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/1P1VBq232WNIY4nu-GGGfP8dBNzJT6a8gykXqaIExUfNdXMOROIXLYomHbwq3PRa'
+
       - label: 'Assignments'
         align: true
         items:
@@ -644,6 +649,11 @@ weeks:
           - text: 'Streams - Pipelines'
             icon: *icon_slides
             link: 'https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP'
+
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
 
       - label: 'Deadlines'
         start: ''
@@ -686,6 +696,11 @@ weeks:
         items:
           - text: 'Software Testing'
 
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
+
       - label: 'Deadlines'
         start: ''
         align: true
@@ -700,6 +715,11 @@ weeks:
         start: 2020-02-27
         items:
           - text: 'Logging'
+
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
 
       - label: 'Assignments'
         align: true
@@ -811,6 +831,11 @@ weeks:
         items:
           - text: 'Multithreading'
 
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
+
       - label: 'Assigments'
         align: true
         items:
@@ -839,6 +864,11 @@ weeks:
         items:
           - text: 'Multithreading'
 
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
+
       - label: 'Assignments'
         align: true
         items:
@@ -865,12 +895,22 @@ weeks:
         items:
           - text: 'Multithreading'
 
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
+
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-03-26
         items:
           - text: 'Multithreading'
+
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
 
     # column 3 (friday)
     - sections:
@@ -900,6 +940,11 @@ weeks:
         items:
           - text: 'Regular Expressions'
 
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
+
       - label: 'Assigments'
         align: true
         items:
@@ -912,6 +957,11 @@ weeks:
         start: 2020-04-02
         items:
           - text: 'Sockets'
+
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
 
     # column 3 (friday)
     - sections:
@@ -951,6 +1001,11 @@ weeks:
         items:
           - text: 'Servlets'
 
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
+
       - label: 'Deadlines'
         start: ''
         align: Structures
@@ -965,6 +1020,11 @@ weeks:
         start: 2020-04-09
         items:
           - text: 'Servlets'
+
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
 
     # column 3 (friday)
     - sections:
@@ -985,6 +1045,11 @@ weeks:
         items:
           - text: 'Sessions'
 
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
+
       - label: 'Assigments'
         align: true
         items:
@@ -997,6 +1062,11 @@ weeks:
         start: 2020-04-16
         items:
           - text: 'Relational Databases'
+
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
 
     # column 3 (friday)
     - sections:
@@ -1025,12 +1095,22 @@ weeks:
         items:
           - text: 'SQL'
 
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
+
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-04-23
         items:
           - text: 'SQL'
+
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
 
     # column 3 (friday)
     - sections:
@@ -1090,12 +1170,22 @@ weeks:
         items:
           - text: 'JDBC'
 
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
+
     # column 2 (thursday)
     - sections:
       - label: 'Lecture'
         start: 2020-05-07
         items:
           - text: 'JDBC'
+
+          # - text: 'Lecture Recording'
+          #   bump: true
+          #   icon: *icon_video
+          #   link: ''
 
     # column 3
     - sections:
