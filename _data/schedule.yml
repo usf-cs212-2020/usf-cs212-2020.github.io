@@ -655,10 +655,10 @@ weeks:
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Stream%20Pipelines'
             bump: true
 
-          # - text: 'Lecture Recording'
-          #   bump: true
-          #   icon: *icon_video
-          #   link: ''
+          - text: 'Lecture Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/2tU2Mp-g6n5LfdbO52H0W48ZDKT_aaa80SUZr_YKzRo_ZLes6QRjZeTQQU6uxNeO'
 
       - label: 'Assignments'
         align: true
