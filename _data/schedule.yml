@@ -723,6 +723,11 @@ weeks:
             icon: *icon_slides
             link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
 
+          - text: 'Unit Testing'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Unit%20Testing'
+            bump: true
+
           # - text: 'Lecture Recording'
           #   bump: true
           #   icon: *icon_video
@@ -762,6 +767,11 @@ weeks:
           - text: 'Logging'
             icon: *icon_slides
             link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
+
+          - text: 'Debugging'
+            icon: *icon_code
+            link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Debugging'
+            bump: true
 
           # - text: 'Lecture Recording'
           #   bump: true
