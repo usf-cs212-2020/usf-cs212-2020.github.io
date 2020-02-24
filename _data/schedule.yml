@@ -712,6 +712,16 @@ weeks:
         start: 2020-02-25
         items:
           - text: 'Software Testing'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
+
+          - text: 'Testing Approaches'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
+
+          - text: 'Unit Testing'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
 
           # - text: 'Lecture Recording'
           #   bump: true
@@ -737,7 +747,13 @@ weeks:
       - label: 'Lecture'
         start: 2020-02-27
         items:
+          - text: 'Assert Statements'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k'
+
           - text: 'Logging'
+            icon: *icon_slides
+            link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
 
           # - text: 'Lecture Recording'
           #   bump: true
