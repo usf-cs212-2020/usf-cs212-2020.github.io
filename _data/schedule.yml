@@ -728,9 +728,17 @@ weeks:
           #   icon: *icon_video
           #   link: ''
 
-      - label: 'Deadlines'
+      - label: 'Assignments'
         start: ''
         align: true
+        items:
+          - text: 'Unit Testing'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346336'
+            date: '2020-02-28'
+
+      - label: 'Deadlines'
+        start: ''
         items:
           - text: 'Java Features'
             icon: *icon_quiz
@@ -765,6 +773,16 @@ weeks:
         items:
           - <<: *project2
 
+          - text: 'Assert Statements'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346340'
+            date: '2020-02-28'
+            bump: true
+
+          - text: 'Logging'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346360'
+            date: '2020-02-28'
 
       - label: 'Deadlines'
         start: ''
@@ -794,8 +812,24 @@ weeks:
         start: ''
         align: true
         items:
+          - text: 'Unit Testing'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346336'
+            date: ''
+
+          - text: 'Assert Statements'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346340'
+            date: ''
+
+          - text: 'Logging'
+            icon: *icon_quiz
+            link: 'https://usfca.instructure.com/courses/1590210/quizzes/2346360'
+            date: ''
+
           - <<: *homework5
             date: ''
+            bump: true
 
 - week: 7
   columns:
