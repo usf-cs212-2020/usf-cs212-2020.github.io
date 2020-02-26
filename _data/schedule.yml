@@ -728,10 +728,10 @@ weeks:
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Unit%20Testing'
             bump: true
 
-          # - text: 'Lecture Recording'
-          #   bump: true
-          #   icon: *icon_video
-          #   link: ''
+          - text: 'Lecture Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/_-ZJcaj0yGpORoHK2R3ieKcfBpv-aaa81XRP-6FfzElVUafMz8GZyDUOB_fytiS9'
 
       - label: 'Assignments'
         start: ''
