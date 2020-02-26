@@ -812,6 +812,7 @@ weeks:
         start: 2020-02-28
         items:
           - text: 'Exam 1 Review'
+            link: '/guides/exam-1.html'
 
       - label: 'Assignments'
         align: true
