@@ -146,7 +146,7 @@ resources:
 
     - text: 'Thu 02/27'
       slug: 'logging'
-      link: '#'
+      link: 'https://usfca.zoom.us/rec/share/-OBEHYOsrjNJWpXLq2rbdZAeBqbEaaa81SMX_aANnx59t0CugpoVm4CRm3U_qHkU?startTime=1582836309000'
 
   slides:
     - text: 'Exceptions'

@@ -773,10 +773,10 @@ weeks:
             link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Debugging'
             bump: true
 
-          # - text: 'Lecture Recording'
-          #   bump: true
-          #   icon: *icon_video
-          #   link: ''
+          - text: 'Lecture Recording'
+            bump: true
+            icon: *icon_video
+            link: 'https://usfca.zoom.us/rec/share/-OBEHYOsrjNJWpXLq2rbdZAeBqbEaaa81SMX_aANnx59t0CugpoVm4CRm3U_qHkU?startTime=1582836309000'
 
       - label: 'Assignments'
         align: true
