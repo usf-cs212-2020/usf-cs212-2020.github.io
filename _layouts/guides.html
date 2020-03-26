@@ -24,6 +24,15 @@
 <section class="section">
   <div class="container">
 
+    <article class="message is-danger">
+      <div class="message-header">
+        <p>COVID-19 Notice</p>
+      </div>
+      <div class="message-body">
+        Due to the COVID-19 outbreak, this website is being retired effective March 15, 2020. All future updates will be moved to <a href="{{ site.data.info.links.canvas.link }}">Canvas</a> for online instruction as advised by the university.
+      </div>
+    </article>
+
     {%- assign category = site.collections | where: 'label', page.collection | first -%}
     <nav class="breadcrumb is-small" aria-label="breadcrumbs">
       <ul>
